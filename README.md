@@ -60,6 +60,23 @@ tail -n 20 /tmp/codex-usage-widget.log
 tail -n 20 /tmp/codex-usage-widget.err
 ```
 
+## Troubleshooting iCloud Drive access
+
+If the installer or updater cannot access Scriptable's iCloud folder and reports `Operation not permitted`, allow the desktop app running Codex to access iCloud Drive:
+
+1. Open **System Settings → Privacy & Security → Files & Folders**.
+2. Select **ChatGPT** (or **Codex**, if shown separately).
+3. Enable **iCloud Drive**.
+4. Run the installer or updater again.
+
+If no iCloud Drive toggle appears under Files & Folders, open **System Settings → Privacy & Security → Full Disk Access**, enable ChatGPT or Codex there, then retry.
+
+The Scriptable folder used by this project is:
+
+```text
+~/Library/Mobile Documents/iCloud~dk~simonbs~Scriptable/Documents
+```
+
 ## Display behavior
 
 - Percentages are percentage remaining, not percentage used.
