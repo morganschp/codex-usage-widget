@@ -5,12 +5,6 @@ A compact Scriptable Lock Screen widget that shows the percentage **remaining** 
 
 <img width="236" height="190" alt="IMG_3227" src="https://github.com/user-attachments/assets/f761d9da-db1e-4baa-9252-af29d60c9d53" />
 
-```text
->> CODEX
-05H 100%
-07D 063% 20.07
-```
-
 The Mac refreshes the data every 15 minutes while awake. Scriptable syncs it to the iPhone through iCloud Drive.
 
 ## Requirements
