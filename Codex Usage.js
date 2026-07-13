@@ -71,7 +71,7 @@ function normalizedPercent(value) {
 }
 
 function formatPercent(value) {
-  return `${String(normalizedPercent(value)).padStart(3, "0")}%`;
+  return `${String(normalizedPercent(value)).padStart(3, " ")}%`;
 }
 
 function formatResetTime(timestamp) {
