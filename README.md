@@ -1,7 +1,9 @@
+
 # Codex Usage Lock Screen Widget
 
 A compact Scriptable Lock Screen widget that shows the percentage **remaining** in your Codex usage windows:
 
+<img width="1179" height="951" alt="IMG_3227" src="https://github.com/user-attachments/assets/f761d9da-db1e-4baa-9252-af29d60c9d53" />
 ```text
 >> CODEX
 05H 100%
