@@ -12,24 +12,23 @@ The Mac refreshes the data every 15 minutes while awake. Scriptable syncs it to 
 - macOS and iPhone signed into the same iCloud account
 - [Scriptable](https://scriptable.app/) installed on the iPhone with iCloud enabled
 - ChatGPT or Codex desktop app installed in `/Applications` and signed in
-- Python 3 on the Mac
+- Python 3 on Mac
 
-This project uses the Codex executable bundled with the ChatGPT or Codex desktop app. It does **not** install or require a separate Codex CLI, and it does not copy or expose authentication tokens.
+This project uses the Codex executable bundled with the Codex (now inside ChatGPT) desktop app. It does **not** install or require a separate Codex CLI, and it does not copy or expose authentication tokens.
 
 ## Install
 
 1. Open Scriptable once on the iPhone and enable iCloud for Scriptable.
-2. Open the ChatGPT or Codex desktop app on the Mac and sign in.
-3. Clone this repository and run:
+2. Clone this repository inside Codex and run:
 
    ```bash
    chmod +x install.sh
    ./install.sh
    ```
 
-4. If macOS asks, allow Terminal or Codex to access iCloud Drive and install the user LaunchAgent.
-5. On the iPhone, open Scriptable and run **Codex Usage** once.
-6. Long-press the Lock Screen, choose **Customize**, tap the widget area, add **Scriptable**, choose the rectangular widget, and select **Codex Usage**.
+3. If macOS asks, allow Terminal or Codex to access iCloud Drive and install the user LaunchAgent.
+4. On the iPhone, open Scriptable and run **Codex Usage** once.
+5. Long-press the Lock Screen, choose **Customize**, tap the widget area, add **Scriptable**, choose the rectangular widget, and select **Codex Usage**.
 
 ## What gets installed
 
